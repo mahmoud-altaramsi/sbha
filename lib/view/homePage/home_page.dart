@@ -11,7 +11,7 @@ class HomePage extends StatelessWidget {
       appBar: AppBar(
         centerTitle: true,
         title: Text(
-          "صدقة جارية",
+          "صد..قة جارية",
           style: TextStyle(fontSize: 40, color: ColorsAppSbha.white),
         ),
         backgroundColor: ColorsAppSbha.darkslategray,
