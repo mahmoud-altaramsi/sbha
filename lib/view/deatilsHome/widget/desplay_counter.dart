@@ -19,7 +19,7 @@ class DesplayCounter extends StatelessWidget {
           borderRadius: BorderRadius.circular(130)),
       child: Column(
         children: [
-          SizedBox(
+          const SizedBox(
             height: 60,
           ),
           Container(
@@ -70,7 +70,7 @@ class DesplayCounter extends StatelessWidget {
                   );
                 },
               )),
-          SizedBox(
+          const SizedBox(
             height: 20,
           ),
           Row(
@@ -98,7 +98,7 @@ class DesplayCounter extends StatelessWidget {
               ),
             ],
           ),
-          SizedBox(
+          const SizedBox(
             height: 25,
           ),
           Container(
@@ -110,9 +110,12 @@ class DesplayCounter extends StatelessWidget {
             child: TextButton(
               onPressed: () {
                 if (cont.start == 33) {
+                  cont.sber == 1;
+
                   cont.resetStartCounterSbha();
                   cont.rollStartCounterSbha();
                 } else {
+                  cont.sber = 0;
                   cont.startCounterSbha();
                 }
                 if (cont.rollStart > 3) {
@@ -128,7 +131,7 @@ class DesplayCounter extends StatelessWidget {
               ),
             ),
           ),
-          SizedBox(
+          const SizedBox(
             height: 25,
           ),
         ],

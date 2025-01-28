@@ -1,4 +1,4 @@
-package com.example.sbha
+package com.altaramsi.app
 
 import io.flutter.embedding.android.FlutterActivity
 

@@ -12,8 +12,8 @@ class NextVoice extends StatelessWidget {
   Widget build(BuildContext context) {
     return SizedBox(
       child: Text(
-        "${nextVoice[0]}",
-        style: TextStyle(
+        nextVoice[0],
+        style: const TextStyle(
           fontSize: 80,
           fontWeight: FontWeight.bold,
         ),
